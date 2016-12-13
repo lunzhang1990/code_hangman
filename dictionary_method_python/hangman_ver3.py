@@ -45,12 +45,7 @@ class MyDict:
         
         self.the_MyDict = collections.defaultdict(lambda: [[],0])
         self.set_up_MyDict(name)
-        
-    def print_result(self,game,guess):
-        """print information at each guess step"""
-        print "guess:"+guess
-        print "".join(game.current_result)+" missed:"+",".join(game.unmatched)
-        
+       
     def guess_it(self,game):
         """
             generate next guess based on game state
@@ -61,9 +56,11 @@ class MyDict:
         
         guess = self.letter_for_guess(game)
         
-        self.print_result(game,guess)
+        print "guess:"+guess
         
         game.one_guess(guess)
+        
+        print "".join(game.current_result)+" missed:"+",".join(game.unmatched)
         
         if game.game_index in self.the_MyDict:
             return

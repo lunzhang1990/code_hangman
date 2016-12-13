@@ -40,4 +40,5 @@ Then it will ask you to input directory of dictionary, for example:
 			Correct Guesses (%): 80.0%
 			Time to run: 60 seconds
 		
-		
+##Optimization:
+I want to use some learning methods to learn the dictionary in the python method. Then we do not have to create it every time when we run the python code. But I have not figured out a good way to do it.

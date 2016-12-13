@@ -1,7 +1,7 @@
 # code_hangman
 
 ## Summary
-There are two folders. The first python folder is for final hand in code. The second c++ folder is my first trial for using frequency of english words. 
+There are two folders. The first python folder is for final hand in code. The second c++ folder is my first trial for using frequency of english words which seems to have low rate of guess. 
 
 ##Environment:
 

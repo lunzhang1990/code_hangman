@@ -35,10 +35,10 @@ Then it will ask you to input directory of dictionary, for example:
 
 >	The final result will be like:
 			
-			Number of words tested: 50,000
-			Number of words guessed correctly: 40,000
-			Correct Guesses (%): 80.0%
-			Time to run: 60 seconds
+			Number of words tested: 50000
+			Number of words guessed correctly: 48228
+			Correct Guesses (%): 96.456 %
+			Time to run: 106.497098 seconds
 		
 ##Optimization:
 I want to use some learning methods to learn the dictionary in the python method. Then we do not have to create it every time when we run the python code. But I have not figured out a good way to do it.
